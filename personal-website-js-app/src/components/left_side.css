@@ -1,0 +1,73 @@
+.profile {
+  /* background-color: rgba(30, 30, 30, 0.92); */
+  background-color: rgba(232, 232, 232, 0.80);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  z-index: 3;
+  /* justify-content: center; */
+}
+
+.profile-picture {
+  border-radius: 100px;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* color: rgb(177, 177, 177); */
+  color: rgb(133, 112, 231)
+}
+
+.profile-description {
+  color: rgb(117, 117, 117);
+  /* color: rgb(133, 112, 231) */
+}
+
+/* .card-title {
+  font-size: 15px;
+  font-weight: 800;
+  margin: 2px;
+  color: rgb(133, 112, 231);
+  text-decoration: none;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+} */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.specific-link {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.link-properties {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 2px;
+  color: rgb(133, 112, 231);
+  text-decoration: none;
+}
+
+.link-properties:hover {
+  text-decoration: underline;
+}

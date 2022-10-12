@@ -1,0 +1,151 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  font-size: 35px;
+  color: black;
+}
+
+.subheading {
+  font-size: 14px;
+  color: grey;
+}
+
+
+.subdivider {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  z-index: 3;
+}
+
+
+.my-repositories-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 110px;
+  margin-right: 110px;
+  color: rgb(30, 30, 30);
+}
+
+.super-container {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* min-height: 300px; */
+  max-height: 175px;
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr; 
+  /* justify-content: center;
+  align-content: space-between; */
+  border: 1px solid rgb(215, 215, 215);
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  border-radius: 10px;
+  max-height: 175px;
+  min-width: 300px;
+}
+
+.card-container:hover {
+  background-color: rgba(235, 235, 235, 0.8);
+  filter: brightness(95%) !important;
+  -webkit-transition: all .7s ease;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 800;
+  margin: 2px;
+  color: rgb(133, 112, 231);
+  text-decoration: none;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+
+.card-description {
+  color: black;
+  font-size: 15px;
+  margin: 0;
+}
+
+
+
+
+.card-language {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  margin: 0;
+}
+
+.language-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+
+}
+
+.TypeScript::marker {
+  margin: 0;
+}
+
+
+.JavaScript,
+.TypeScript,
+.Python,
+.CSS,
+.HTML {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* // For language colors, see: https://github.com/hanford/github-language-colors/blob/master/colors.json */
+
+.JavaScript {
+  color: #f1e05a;
+}
+
+.TypeScript {
+  color: #2b7489
+}
+
+.Python {
+  color: #3572A5
+}
+
+.CSS {
+  color: #563d7c
+}
+
+.HTML {
+  color: #e44b23
+}
+
+.language-text-color {
+  font-size: 10px;
+  color: rgb(73, 73, 73);
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.card-updated-at {
+  color: rgb(116, 116, 116);
+  margin: 0;
+  font-size: 10px;
+}
